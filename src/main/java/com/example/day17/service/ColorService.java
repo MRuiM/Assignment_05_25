@@ -10,4 +10,6 @@ public interface ColorService {
     Color getColorByID(String id);
 
     List<Color> getAllColors();
+
+    Color save(Color color);
 }
